@@ -1,13 +1,15 @@
 :root {
-  --burnt-orange: #D35400;
-  --mustard: #F39C12;
-  --olive: #556B2F;
-  --olive-light: #6B8E23;
-  --beige: #EED6B7;
-  --dark: #2C1810;
+  --burnt-orange: #e95b04; /* primary vivid orange */
+  --burnt-shadow: #a74004; /* darker orange */
+  --mustard: #fb9206; /* bright accent */
+  --olive: #3b453a; /* dark green-grey */
+  --olive-light: #2b3a35; /* deeper olive */
+  --brown: #653e1e;
+  --brown-dark: #402f1e;
+  --dark: #202b25; /* near-black green */
   --light: #FAF7F2;
   --border: #D9CCC3;
-  --text: #3D2817;
+  --text: #402f1e;
 }
 
 * {
@@ -43,7 +45,7 @@ body {
   height: fit-content;
   position: sticky;
   top: 20px;
-  box-shadow: 0 8px 24px rgba(211, 84, 0, 0.2);
+  box-shadow: 0 8px 24px rgba(233, 91, 4, 0.2);
 }
 
 .header-content h1 {
@@ -118,7 +120,7 @@ body {
 .nav-btn:hover {
   border-color: var(--olive-light);
   color: var(--olive-light);
-  background: rgba(107, 142, 35, 0.05);
+  background: rgba(59, 69, 58, 0.05);
 }
 
 .nav-btn.active {
@@ -176,7 +178,7 @@ body {
 }
 
 .location-box {
-  background: linear-gradient(135deg, rgba(107, 142, 35, 0.1), rgba(211, 84, 0, 0.06));
+  background: linear-gradient(135deg, rgba(59, 69, 58, 0.10), rgba(233, 91, 4, 0.06));
   padding: 15px;
   border-left: 4px solid var(--olive-light);
   border-radius: 6px;
@@ -203,7 +205,7 @@ body {
   border-radius: 50%;
   margin-top: 5px;
   flex-shrink: 0;
-  box-shadow: 0 0 0 4px rgba(107, 142, 35, 0.15);
+  box-shadow: 0 0 0 4px rgba(59, 69, 58, 0.15);
 }
 
 .timeline::before {
@@ -269,7 +271,7 @@ body {
 
 /* Project Cards */
 .project-card {
-  background: linear-gradient(135deg, rgba(107, 142, 35, 0.06), rgba(211, 84, 0, 0.04));
+  background: linear-gradient(135deg, rgba(59, 69, 58, 0.06), rgba(233, 91, 4, 0.04));
   border: 2px solid var(--border);
   border-left: 4px solid var(--olive-light);
   border-radius: 6px;
@@ -345,12 +347,12 @@ body {
 .project-link:hover {
   background: var(--olive-light);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(107, 142, 35, 0.3);
+  box-shadow: 0 4px 12px rgba(59, 69, 58, 0.3);
 }
 
 /* Experience Cards */
 .experience-card {
-  background: linear-gradient(135deg, rgba(107, 142, 35, 0.08), rgba(238, 214, 183, 0.1));
+  background: linear-gradient(135deg, rgba(59, 69, 58, 0.08), rgba(238, 214, 183, 0.1));
   border-left: 4px solid var(--olive-light);
   padding: 18px;
   margin-bottom: 18px;
@@ -446,7 +448,7 @@ body {
 
 .skill-badge:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(107, 142, 35, 0.3);
+  box-shadow: 0 4px 12px rgba(59, 69, 58, 0.3);
 }
 
 /* Languages Section */
@@ -458,7 +460,7 @@ body {
 }
 
 .language-item {
-  background: linear-gradient(135deg, rgba(107, 142, 35, 0.08), rgba(238, 214, 183, 0.08));
+  background: linear-gradient(135deg, rgba(59, 69, 58, 0.08), rgba(238, 214, 183, 0.08));
   padding: 18px;
   border-radius: 6px;
   border: 2px solid var(--border);
@@ -481,12 +483,12 @@ body {
 }
 
 .proficiency-badge.native {
-  background: rgba(107, 142, 35, 0.2);
+  background: rgba(59, 69, 58, 0.2);
   color: var(--olive);
 }
 
 .proficiency-badge.expert {
-  background: rgba(211, 84, 0, 0.15);
+  background: rgba(233, 91, 4, 0.15);
   color: var(--burnt-orange);
 }
 
