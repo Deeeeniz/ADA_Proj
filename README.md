@@ -1,4 +1,6 @@
-**Project: Mahammad Sheykhov — CV & Portfolio (ADA_Proj)
+# Mahammad Sheykhov — CV & Portfolio
+
+**Project: ADA_Proj**
 
 **Project Summary**:
 - **Purpose**: Single-page Jekyll-based CV/portfolio compiled from `ADA_Proj1j.md` into `index.html` and served via GitHub Pages.
@@ -76,7 +78,7 @@ To change the palette, edit the CSS variables in `ADA_CSS.css` (top of file, `:r
 
 **Next steps / Suggestions**:
 - Add a `.gitignore` entry for `_site/` (to avoid committing generated files): add `_site/` to `.gitignore`.
-- Consider adding a `README` section with deployment URL: `https://<your-username>.github.io/ADA_Proj/`.
+- Consider adding a `README` section with deployment URL: `https://Deeeeniz.github.io/ADA_Proj/`.
 - If you want older deployments removed from the GitHub UI, review the repository's Pages settings and Actions history — note: GitHub retains deployment records for audit.
 
 **Contact / Help**:
