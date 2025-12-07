@@ -11,7 +11,7 @@ permalink: /
     <div class="header-content">
       <h1 class="name-title">Mahammad Sheykhov</h1>
       <p class="tagline">Full-Stack Developer | Software Engineer</p>
-      <img src="/assets/avatar.svg" alt="Avatar" class="header-avatar" />
+      <img src="assets/avatar.svg" alt="Avatar" class="header-avatar" />
       
       <div class="header-info">
         <div class="info-item">
