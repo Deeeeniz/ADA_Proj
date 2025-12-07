@@ -134,6 +134,4 @@ Below is a cleaned and compressed extract of the interactive session and investi
 
 ---
 
-_This transcript was extracted and condensed from an interactive editing session in the repository workspace on the user's machine. If you want the full raw session (terminal commands, exact timestamps, and each tool output), I can produce a separate `CHATLOG.md` containing the unabridged logs._
-
-````
+(End of README)
