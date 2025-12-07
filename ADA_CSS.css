@@ -15,6 +15,16 @@
   box-sizing: border-box;
 }
 
+/* Strong overrides to ensure tight vertical spacing */
+.cv-container {
+  gap: 12px !important;
+}
+
+.cv-section {
+  padding: 12px 28px !important;
+}
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.6;
