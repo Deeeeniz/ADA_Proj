@@ -111,7 +111,12 @@ body {
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 1 / -1;
+  /* 
+    Stretches from row 1 to the last grid line (-1).
+    This makes nav adapt to the header's height dynamically,
+    eliminating spacing gaps between nav and content.
+  */
   align-self: start;
 }
 
@@ -146,7 +151,13 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1 / -1;
+  /* 
+    Also stretches from row 1 to the last grid line (-1).
+    This allows content and nav to overlap naturally in row 1,
+    with content below nav using CSS flex or overflow.
+    Alternative: Keep grid-row: 2 if nav should stay pinned above content.
+  */
 }
 
 .cv-section {
