@@ -28,7 +28,7 @@ body {
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  gap: 18px;
+  gap: 30px;
 }
 
 /* Sidebar for header */
@@ -54,7 +54,7 @@ body {
   grid-row: 2;
   height: fit-content;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  margin-top: 12px;
+  margin-top: 18px;
 }
 
 .header-content h1 {
@@ -116,7 +116,7 @@ body {
 .cv-nav {
   display: flex;
   gap: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   flex-wrap: wrap;
   background: white;
   padding: 12px;
