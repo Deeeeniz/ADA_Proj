@@ -62,6 +62,15 @@ jekyll build
 # optional: jekyll serve --watch
 ```
 
+## Notes about `relative_url` and `baseurl`
+
+- This project uses Jekyll's `relative_url` filter in templates and markdown to ensure asset paths (CSS, JS, images) work both locally and on GitHub Pages when the site is published under a repository subpath (for example: `https://Deeeeniz.github.io/ADA_Proj/`).
+- `relative_url` prepends `site.baseurl` when it is set in `_config.yml`. I added a `_config.yml` with `baseurl: "/ADA_Proj"` so the site will correctly reference assets at `/ADA_Proj/...` on GitHub Pages. If you publish the site at the root domain instead, remove or empty `baseurl`.
+- Example: `{{ '/assets/my-avatar.jpg' | relative_url }}` will become `/ADA_Proj/assets/my-avatar.jpg` when `baseurl: "/ADA_Proj"`.
+
+If you'd rather use absolute paths without Liquid in the markdown, set `baseurl` appropriately in `_config.yml` (or leave it empty for root) and rebuild.
+
+
 ## Files of Interest
 - `ADA_Proj1j.md` — main Jekyll source (markdown + HTML)
 - `_layouts/default.html` — layout wrapper referencing `ADA_CSS.css` and `ADA_ProjJS.js`
