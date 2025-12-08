@@ -164,6 +164,22 @@ body {
   */
 }
 
+/* Right column wrapper (nav + content) */
+.right-col {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: stretch;
+}
+
+/* When inside .right-col, allow content to take remaining vertical space */
+.right-col .cv-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .cv-section {
   padding: 35px;
   border-bottom: 1px solid var(--border);

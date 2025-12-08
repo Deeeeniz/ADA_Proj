@@ -34,17 +34,19 @@ permalink: /
   </header>
 
   <!-- Navigation -->
-  <nav class="cv-nav">
-    <button class="nav-btn active" data-section="about">About</button>
-    <button class="nav-btn" data-section="education">Education</button>
-    <button class="nav-btn" data-section="projects">Projects</button>
-    <button class="nav-btn" data-section="experience">Experience</button>
-    <button class="nav-btn" data-section="skills">Skills</button>
-    <button class="nav-btn" data-section="languages">Languages</button>
-  </nav>
+  <!-- Right column: navigation + main content -->
+  <div class="right-col">
+    <nav class="cv-nav">
+      <button class="nav-btn active" data-section="about">About</button>
+      <button class="nav-btn" data-section="education">Education</button>
+      <button class="nav-btn" data-section="projects">Projects</button>
+      <button class="nav-btn" data-section="experience">Experience</button>
+      <button class="nav-btn" data-section="skills">Skills</button>
+      <button class="nav-btn" data-section="languages">Languages</button>
+    </nav>
 
-  <!-- Main Content -->
-  <main class="cv-content">
+    <!-- Main Content -->
+    <main class="cv-content">
     
     <!-- About Section -->
     <section id="about" class="cv-section active">
@@ -421,6 +423,8 @@ permalink: /
     </section>
 
   </main>
+
+  </div>
 
   <!-- Footer -->
   <footer class="cv-footer">
