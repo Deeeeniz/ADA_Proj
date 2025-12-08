@@ -6,35 +6,32 @@ permalink: /
 
 <div class="cv-container">
   
-  <!-- Header Section (split into top + bottom to prevent nav/content spacing issues) -->
-  <aside class="cv-header-top">
+  <!-- Header Section -->
+  <header class="cv-header">
     <div class="header-content">
       <h1 class="name-title">Mahammad Sheykhov</h1>
       <p class="tagline">Full-Stack Developer | Software Engineer</p>
       <img src="{{ '/assets/my-avatar.jpg' | relative_url }}" alt="Mahammad Sheykhov smiling professional headshot avatar with friendly approachable demeanor" class="header-avatar" />     
-    </div>
-  </aside>
-
-  <aside class="cv-header-bottom">
-    <div class="header-info">
-      <div class="info-item">
-        <span class="label">Date of Birth:</span>
-        <span>17/01/2009 (16 years old)</span>
-      </div>
-      <div class="info-item">
-        <span class="label">Nationality:</span>
-        <span>Azerbaijani</span>
-      </div>
-      <div class="info-item">
-        <span class="label">Phone:</span>
-        <a href="tel:+994504360117">(+994) 50 436 0117</a>
-      </div>
-      <div class="info-item">
-        <span class="label">Email:</span>
-        <a href="mailto:sheykhovdeniz@gmail.com">sheykhovdeniz@gmail.com</a>
+      <div class="header-info">
+        <div class="info-item">
+          <span class="label">Date of Birth:</span>
+          <span>17/01/2009 (16 years old)</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Nationality:</span>
+          <span>Azerbaijani</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Phone:</span>
+          <a href="tel:+994504360117">(+994) 50 436 0117</a>
+        </div>
+        <div class="info-item">
+          <span class="label">Email:</span>
+          <a href="mailto:sheykhovdeniz@gmail.com">sheykhovdeniz@gmail.com</a>
+        </div>
       </div>
     </div>
-  </aside>
+  </header>
 
   <!-- Navigation -->
   <nav class="cv-nav">

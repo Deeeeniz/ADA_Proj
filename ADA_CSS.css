@@ -32,29 +32,17 @@ body {
 }
 
 /* Sidebar for header */
-.cv-header-top {
+.cv-header {
   background: linear-gradient(135deg, var(--burnt-orange) 0%, #B84100 100%);
   color: white;
   padding: 30px;
   border-radius: 8px;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 1 / span 2;
   height: fit-content;
   position: sticky;
   top: 20px;
   box-shadow: 0 8px 24px rgba(211, 84, 0, 0.2);
-}
-
-.cv-header-bottom {
-  background: linear-gradient(135deg, rgba(184,65,0,0.08) 0%, rgba(211,84,0,0.04) 100%);
-  color: var(--text);
-  padding: 20px 18px;
-  border-radius: 8px;
-  grid-column: 1;
-  grid-row: 2;
-  height: fit-content;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  margin-top: 18px;
 }
 
 .header-content h1 {
