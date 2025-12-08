@@ -11,7 +11,7 @@ permalink: /
     <div class="header-content">
       <h1 class="name-title">Mahammad Sheykhov</h1>
       <p class="tagline">Full-Stack Developer | Software Engineer</p>
-      <img src="/assets/my-avatar.jpg" alt="Mahammad Sheykhov smiling professional headshot avatar with friendly approachable demeanor" class="header-avatar" />     
+      <img src="{{ '/assets/my-avatar.jpg' | relative_url }}" alt="Mahammad Sheykhov smiling professional headshot avatar with friendly approachable demeanor" class="header-avatar" />     
       <div class="header-info">
         <div class="info-item">
           <span class="label">Date of Birth:</span>
