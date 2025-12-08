@@ -118,10 +118,11 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   grid-column: 2;
   grid-row: 1;
+  align-items: flex-start;
   /* 
     Stays in row 1 with auto height.
     The grid's row-gap (30px) is applied between rows, not within.
-    This eliminates the artificial spacing issue.
+    align-items: flex-start keeps buttons compact at the top (no vertical stretch).
   */
 }
 
