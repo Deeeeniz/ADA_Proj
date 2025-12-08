@@ -28,7 +28,13 @@ body {
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto auto 1fr;
   gap: 30px;
+  /* 
+    grid-template-rows: auto auto 1fr allows rows to size based on content,
+    then remaining space fills the third row. This prevents overlap and
+    ensures nav and content sit naturally without artificial gaps.
+  */
 }
 
 /* Sidebar for header */
@@ -104,20 +110,19 @@ body {
 .cv-nav {
   display: flex;
   gap: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   flex-wrap: wrap;
   background: white;
   padding: 12px;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   grid-column: 2;
-  grid-row: 1 / -1;
+  grid-row: 1;
   /* 
-    Stretches from row 1 to the last grid line (-1).
-    This makes nav adapt to the header's height dynamically,
-    eliminating spacing gaps between nav and content.
+    Stays in row 1 with auto height.
+    The grid's row-gap (30px) is applied between rows, not within.
+    This eliminates the artificial spacing issue.
   */
-  align-self: start;
 }
 
 .nav-btn {
@@ -151,12 +156,10 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   grid-column: 2;
-  grid-row: 1 / -1;
+  grid-row: 2;
   /* 
-    Also stretches from row 1 to the last grid line (-1).
-    This allows content and nav to overlap naturally in row 1,
-    with content below nav using CSS flex or overflow.
-    Alternative: Keep grid-row: 2 if nav should stay pinned above content.
+    Stays in row 2 with auto height.
+    The grid's row-gap maintains spacing. No artificial gap between nav and content.
   */
 }
 
