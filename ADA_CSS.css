@@ -600,8 +600,9 @@ body {
   text-align: center;
   padding: 25px;
   margin-top: 25px;
-  border-radius: 0 0 8px 8px;
+  border-radius: 8px;
   grid-column: 2;
+  /* grid-column applies to desktop layout; media queries below override for mobile */
 }
 
 .footer-links {
@@ -646,6 +647,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .cv-footer {
+    grid-column: 1;
+    margin-top: 20px;
   }
 
   .cv-nav {
@@ -729,6 +735,16 @@ body {
 
   .cv-section {
     padding: 20px;
+  }
+
+  .cv-footer {
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 0.85em;
+  }
+
+  .footer-links {
+    margin-top: 10px;
   }
 
   .cv-section h2 {
