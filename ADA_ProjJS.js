@@ -1,19 +1,5 @@
-// Navigation functionality
-document.querySelectorAll('.nav-btn').forEach(button => {
-  button.addEventListener('click', function() {
-    // Remove active class from all buttons and sections
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.cv-section').forEach(section => section.classList.remove('active'));
-
-    // Add active class to clicked button and corresponding section
-    this.classList.add('active');
-    const sectionId = this.getAttribute('data-section');
-    document.getElementById(sectionId).classList.add('active');
-
-    // Smooth scroll to content
-    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-  });
-});
+// Multi-page navigation - no JavaScript needed for page navigation
+// Navigation is now handled by Jekyll routing
 
 // Smooth scroll for footer links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
