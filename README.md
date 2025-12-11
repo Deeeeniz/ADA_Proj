@@ -169,3 +169,15 @@ These changes were made to address a spacing issue where the header's height cre
   - Added mobile-specific footer styling with smaller padding and font sizes.
 
 Site now responds correctly on all device sizes: desktop (two-column), tablet (stacked), and mobile (single column with optimized spacing).
+
+## Multi-Page Conversion & Social Icons Integration
+
+- Commit `67fe141`: Converted single-page portfolio to multi-page Jekyll site:
+  - **New Pages Created**: Home (`index.md`), About, Education, Projects, Experience, Skills, Languages
+  - **Social Icons Added**: GitHub, Codecademy, Codeforces, LeetCode icons in header with hover effects
+  - **Navigation Updated**: Jekyll routing replaces JavaScript single-page navigation
+  - **Homepage Features**: Welcome section with highlight cards and call-to-action buttons
+  - **Complete CSS**: All styles for social icons, homepage, skills, languages, footer, and responsive design
+  - **File Management**: Renamed old single-page file to `ADA_Proj1j_old.md`
+
+Site now functions as a proper multi-page portfolio with social media integration and professional navigation.
