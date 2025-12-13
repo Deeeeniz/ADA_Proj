@@ -52,7 +52,7 @@ permalink: /education/
         </div>
         <div class="info-item">
           <span class="label">Email:</span>
-          <a href="mailto:sheykhovdeniz@gmail.com">sheykhovdeniz@gmail.com</a>
+          <a href="mailto:sheykhovm@hotmail.com">sheykhovm@hotmail.com</a>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ permalink: /education/
   <footer class="cv-footer">
     <p>&copy; 2024 Mahammad Sheykhov. All rights reserved.</p>
     <div class="footer-links">
-      <a href="mailto:sheykhovdeniz@gmail.com">Email</a>
+      <a href="mailto:sheykhovm@hotmail.com">Email</a>
       <span>•</span>
       <a href="tel:+994504360117">Call</a>
       <span>•</span>
