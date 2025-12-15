@@ -84,7 +84,7 @@ permalink: /
           
           <div class="home-highlights">
             <div class="highlight-card">
-              <h3>🚀 Current Focus</h3>
+              <h3>Current Focus</h3>
               <p>Systems programming, performance optimization, embedded software, and AI infrastructure development. Exploring AI integration in decision-making and governance systems.</p>
             </div>
             
@@ -94,12 +94,12 @@ permalink: /
             </div>
             
             <div class="highlight-card">
-              <h3>🎯 Featured Projects</h3>
+              <h3>Featured Projects</h3>
               <p>SITE 1101 Digital Logic Gates (Team 30) - Collaborative implementation of NOT, AND, OR, XOR, NAND gates</p>
             </div>
             
             <div class="highlight-card">
-              <h3>🌟 Philosophy</h3>
+              <h3>Philosophy</h3>
               <p>AI is a turning point in human history - embracing it to extract beneficial applications rather than resisting technological progress</p>
             </div>
           </div>
